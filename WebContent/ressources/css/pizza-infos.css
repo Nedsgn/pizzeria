@@ -1,0 +1,135 @@
+
+@charset "UTF-8";
+*{	margin: 0px;
+}
+.logo{
+	display:block;
+	margin:0 auto;
+	width:150px;
+	height:150px;
+	
+}
+h1{
+	text-align:center;
+	color:red;
+	font-family : fantasy;
+}
+.container{
+	
+	width:70%;
+	text-align:center;
+	margin:0 auto;
+	padding :50px;
+	
+	 overflow:hidden;
+	
+}
+.container1{
+	display:flex;
+	justify-content:space-between;
+	text-align:center;
+margin-top:5%;
+	
+}
+
+
+span{
+	font-weight: bold;
+	
+	
+}
+
+
+
+p{
+	margin-top:3%;
+	text-align:center;
+	font-family : fantasy;
+	
+}
+
+.button {
+	text-decoration: none;
+	background-color:#4CAF50;
+	border-radius:20px;
+	color:white;
+	padding:10px;
+	margin-right:2%;
+}
+
+.button:hover{
+	background-color: #2e2e2e;
+}
+img{
+	width:600px;
+	height:600px;
+	border-radius:50%;
+	margin-right:5%;
+}
+
+.caption-style-1 img{
+		float: left;
+		padding: 0px;
+		position: relative;
+		overflow: hidden;
+	}
+.caption-style-1:hover .caption{
+		opacity: 1;
+
+	}
+.caption{
+	margin: 0px;
+		padding: 0px;
+		cursor: pointer;
+		position: absolute;
+		opacity: 0;
+		-webkit-transition:all 0.45s ease-in-out;
+		transition:all 0.45s ease-in-out;
+
+	}
+.caption .blur{
+		background-color: rgba(0,0,0,0.65);
+		height: 600px;
+		width: 600px;
+		z-index: 5;
+		position: absolute;
+		border-radius:50%;
+	margin-right:5%;
+	}
+	.caption .caption-text h1{
+		text-transform: uppercase;
+		font-size: 54px;
+	}
+	.caption .caption-text{
+		z-index: 10;
+		color: #fff;
+		position: absolute;
+		width: 600px;
+		height: 600px;
+		text-align: center;
+		top:100px;
+	}
+.description {
+		border-left:5px solid darkgreen;
+		margin-left:5%;
+		height:600px;
+}
+.description ul{
+	font-size:1.4em;
+	margin-top:60px;
+
+	display:inline-block;
+		
+		text-align:left;
+	
+padding:25px;
+  list-style-image: url("https://loveba.jp/wp-content/uploads/2016/07/maple-4.gif");
+
+
+}
+
+footer{
+	background-color: #2e2e2e;
+	color:white;
+}
+
